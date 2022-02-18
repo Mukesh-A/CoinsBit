@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  /* background: linear-gradient(to right, #4ecdc4, #556270); */
+  /* background: linear-gradient(to right, #555e5e, #36464F); */
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20px 0 50px;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(40px);
+  background-clip: padding-box;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+ul {
+  display: flex;
+  /* flex-direction: row;
+    background: pink; */
+  padding-right: 10px;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+ul li {
+  /* padding-left: 10px; */
+  padding: 10px;
+  font-weight: 300;
+}
+.username {
+  color: #949cbe;
+  font-size: 20px;
+  padding-top: 7px;
+  padding-left: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#logout {
+  /* position: absolute;
+    top: 25px; */
+  height: 35px;
+  padding: 5px 15px;
+  margin-top: 5px;
+  background-image: linear-gradient(90deg, #7f00ff, #e100ff);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 15px;
+
+  color: white;
+}
+.container {
+  width: 1050px;
+  height: 650px;
+  /* background:linear-gradient(rgba(0,0,0,0.1), #000000),url("mainscreen1.png"); */
+  /* box-shadow: 0px 0px 7px #eb3136 inset; */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 80%, #000000),
+    linear-gradient(90deg, rgba(0, 0, 0, 0) 60%, #000000),
+    linear-gradient(180deg, rgba(0, 0, 0, 0), #000000 100%),
+    linear-gradient(-90deg, rgba(0, 0, 0, 0) 70%, #000000),
+    url("mainscreen1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22) inset;
+  position: relative;
+}
+a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  font-weight: bolder;
+  /* left:200px; */
+}
+/* #mukesh{
+  position: absolute;
+  font-size: medium;
+  top:0;
+  left:10px;
+} */
+#demo {
+  font-size: large;
+
+  align-content: space-around;
+  color: aliceblue;
+}
+p {
+  position: absolute;
+  top: 280px;
+  left: 330px;
+  color: #949cbe;
+  font-size: 90px;
+}
+.tagline {
+  position: absolute;
+  top: 455px;
+  left: 400px;
+  color: #931ae4;
+  font-size: 15px;
+}
+.trade {
+  margin-top: 500px;
+}
+.diplay-coin {
+  width: 500px;
+  height: 10px;
+  background-color: #161718;
+  border-radius: 10px;
+  border: 1px solid rgb(90, 83, 83);
+  margin-top: 20px;
+  margin-left: 150px;
+  position: relative;
+  top: 600px;
+  padding-left: 230px;
+
+  padding-bottom: 70px;
+}
+#view-btn {
+  position: absolute;
+  top: 25px;
+  padding: 10px 45px;
+  background-image: linear-gradient(90deg, #7f00ff, #e100ff);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+  left: 500px;
+  color: white;
+}
+#view-btn:hover {
+  padding: 9px 43px;
+  background-image: linear-gradient(90deg, #7f00ff, #e100ff);
+}
+@keyframes myframe {
+  0% {
+    transform: translateY(200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.home-coin-imgs {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  left: 60px;
+}
+#coinim {
+  width: 50px;
+  height: 50px;
+  /* margin-top: -15px;
+  margin-left: 10px; */
+  position: relative;
+  left: -200px;
+  top: 15px;
+}
+
+#coinname {
+  color: aliceblue;
+  position: absolute;
+  font-size: larger;
+  top: 5px;
+  left: 150px;
+  text-transform: uppercase;
+}
+#c {
+  color: aliceblue;
+  position: absolute;
+  font-size: small;
+  top: 5px;
+  left: 400px;
+  text-transform: uppercase;
+}
+#cprices {
+  color: aliceblue;
+  position: absolute;
+  font-size: large;
+  top: 15px;
+  left: 400px;
+  text-transform: uppercase;
+}
+#submit {
+  position: absolute;
+  top: 15px;
+  padding: 10px 45px;
+  background-image: linear-gradient(90deg, #7f00ff, #e100ff);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+  left: 550px;
+  color: white;
+}
+
+#submit:hover {
+  padding: 8px 30px;
+  background-image: linear-gradient(90deg, #7f00ff, #e100ff);
+}
+.footer {
+  font-size: 16px;
+  position: relative;
+
+  top: 0px;
+  left: 650px;
+}
+
+#foot {
+  background-color: rgb(32, 32, 32);
+  height: 50px;
+  width: 100%;
+  position: relative;
+  top: 1200px;
+}

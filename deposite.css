@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  /* background: linear-gradient(to right, #4ecdc4, #556270); */
+  /* background: linear-gradient(to right, #555e5e, #36464F); */
+  background-color: #babae7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b111d;
+  /* height: 100vh; */
+  /* margin: 80px 0 60px; */
+  overflow: hidden;
+}
+.nacolor {
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  /* background-color: black; */
+}
+.container {
+  width: 500px;
+  min-height: 400px;
+  margin: 140px 0 60px;
+  background-image: linear-gradient(180deg, #131b2b, #000002);
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* overflow: auto;
+ 
+  box-sizing: border-box;
+  position:relative; */
+  display: flex;
+
+  flex-direction: column;
+
+  /* align-items: center;
+ justify-content: center; */
+}
+.headnav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#withdraw {
+  font-size: large;
+  color: whitesmoke;
+  padding-right: 50px;
+  cursor: pointer;
+}
+#usdname {
+  color: whitesmoke;
+  position: relative;
+  top: 62px;
+  left: 15px;
+  font-size: larger;
+}
+#deposite {
+  font-size: large;
+  color: whitesmoke;
+  align-items: center;
+  padding-left: 50px;
+  cursor: pointer;
+}
+.vl {
+  border-left: 3px solid whitesmoke;
+  height: 30px;
+}
+.card {
+  background: rgba(148, 142, 142, 0.1);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card1 {
+  padding-right: 20px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+.cardnumber {
+  font-weight: 500;
+  font-size: large;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  outline-width: 0;
+  padding-left: 10px;
+  width: 300px;
+  text-decoration: none;
+  appearance: none;
+  background: rgba(158, 153, 153, 0.1);
+}
+.card2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 50px;
+  text-align: left;
+  /* display: none; */
+}
+.monthyear {
+  font-weight: 500;
+  font-size: large;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  outline-width: 0;
+  padding-left: 20px;
+  text-decoration: none;
+  appearance: none;
+  background: rgba(158, 153, 153, 0.1);
+}
+.cvv {
+  font-weight: 500;
+  font-size: large;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  outline-width: 0;
+  margin-left: 70px;
+  text-decoration: none;
+  padding-left: 10px;
+  appearance: none;
+  background: rgba(158, 153, 153, 0.1);
+}
+.card3 {
+  padding-top: 15px;
+  /* display: none; */
+}
+.cardname {
+  font-weight: 500;
+  font-size: large;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  border: 0;
+  padding-left: 10px;
+  color: white;
+  outline-width: 0;
+  margin-left: 50px;
+  text-decoration: none;
+  appearance: none;
+
+  background: rgba(158, 153, 153, 0.1);
+}
+.amount {
+  color: white;
+  font-size: large;
+  margin-left: 50px;
+}
+.buyrate {
+  font-weight: 500;
+  font-size: large;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  border: 0;
+  padding-left: 10px;
+  color: white;
+  outline-width: 0;
+
+  margin-left: 50px;
+  text-decoration: none;
+  appearance: none;
+  background: rgba(158, 153, 153, 0.1);
+}
+.calculatedvalue {
+  font-weight: 500;
+  font-size: large;
+  height: 50px;
+  width: 450px;
+  border-radius: 10px;
+  border: 0;
+
+  color: white;
+  outline-width: 0;
+  margin-top: 10px;
+  padding-right: 50px;
+  text-decoration: none;
+  appearance: none;
+  background: transparent;
+  text-align: right;
+}
+#sub {
+  /* position: absolute; */
+
+  width: 120px;
+  height: 40px;
+  /* padding: 12px 20px; */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+  background-image: linear-gradient(90deg, #7f00ff, #e100ff);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 20px;
+  /* top:320px; */
+  /* left:280px; */
+  color: white;
+}

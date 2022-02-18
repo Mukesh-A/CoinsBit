@@ -1,0 +1,12 @@
+.diplay-coin{
+    width: 700px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid rgb(39, 38, 38);
+    margin-top: 10px;
+    margin-left: 150px;
+    position: relative;
+  }
+  #demo{
+    color: blueviolet;
+  }

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  /* background: linear-gradient(to right, #4ecdc4, #556270); */
+  /* background: linear-gradient(to right, #555e5e, #36464F); */
+  background-color: #babae7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 20px 0 60px;
+  overflow: hidden;
+}
+.container {
+  width: 1050px;
+  height: 650px;
+  background-image: linear-gradient(180deg, #131b2b, #000002);
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* overflow: auto;
+ 
+  box-sizing: border-box;
+  position:relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.topnav {
+  height: 50px;
+  width: 800px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 60px;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.usdprice {
+  display: flex;
+  align-items: center;
+}
+
+.usdprice .usdt {
+  font-size: 50px;
+  color: aliceblue;
+}
+.usdprice .usdtprice {
+  font-size: 60px;
+  color: aliceblue;
+  padding-left: 30px;
+}
+
+table {
+  /* padding-top:10px; */
+  margin: 0;
+  /* padding-left: -30; */
+}
+
+th {
+  padding-left: 150px;
+  padding-top: 10px;
+  color: #5ea2d1;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+tr {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+td {
+  margin: 0;
+  font-size: 20px;
+  color: aliceblue;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

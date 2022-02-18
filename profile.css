@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  /* background: linear-gradient(to right, #4ecdc4, #556270); */
+  /* background: linear-gradient(to right, #555e5e, #36464F); */
+  background-color: #babae7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 20px 0 60px;
+  overflow: hidden;
+}
+.container {
+  width: 1050px;
+  height: 650px;
+  background-image: linear-gradient(180deg, #131b2b, #000002);
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* overflow: auto;
+ 
+  box-sizing: border-box;
+  position:relative; */
+  display: flex;
+}
+.topnav {
+  height: 50px;
+  width: 800px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 60px;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#leftdiv {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+#rightdiv {
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+.ccard {
+  width: 400px;
+  height: 220px;
+
+  border-radius: 20px;
+  position: relative;
+  top: 40px;
+  left: 60px;
+  background-image: linear-gradient(320deg, #000046, #1cb5e0);
+  box-shadow: 0 14px 28px rgba(15, 174, 200, 0.2),
+    0 10px 10px rgba(16, 47, 224, 0.22);
+
+  backdrop-filter: blur(10px);
+}
+.carddebit {
+  color: seashell;
+  font-size: large;
+  position: relative;
+  top: -8px;
+  left: 15px;
+}
+.top {
+  display: flex;
+}
+.cardbankname {
+  position: absolute;
+  left: 270px;
+  font-style: italic;
+  top: -10px;
+  color: seashell;
+  font-size: larger;
+  outline: none;
+  border: none;
+}
+.cardnumber {
+  width: 350px;
+  color: seashell;
+  font-size: 20px;
+  position: relative;
+  left: 30px;
+  top: 10px;
+  letter-spacing: 4px;
+
+  outline: none;
+  border: none;
+
+  letter-spacing: 10px;
+  background: transparent;
+}
+.cardyear {
+  color: seashell;
+  font-size: 18px;
+  position: relative;
+  left: 50px;
+  top: 15px;
+  letter-spacing: 4px;
+  width: 50px;
+  outline: n;
+  border: none;
+
+  letter-spacing: 1px;
+  background: transparent;
+}
+#cardcvv {
+  width: 40px;
+  color: seashell;
+  font-size: 20px;
+  position: relative;
+  left: 180px;
+  top: 15px;
+  letter-spacing: 4px;
+  /* padding-left: 20px; */
+  border: none;
+  outline: none;
+  visibility: hidden;
+  letter-spacing: 1px;
+  background: transparent;
+}
+.cardholdername {
+  color: seashell;
+  font-size: large;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  outline: none;
+  border: none;
+  letter-spacing: 7px;
+  background: transparent;
+}
+#lablecvv {
+  visibility: hidden;
+  position: relative;
+  left: 170px;
+  top: 15px;
+  font-size: large;
+}
+/* #delete{
+    background-image: url("icon/delete.png");
+    border: none;
+    position: relative;
+    top: 45px;
+    left:120px;
+    width: 100px;
+} */
+
+/* .first{
+    width: 500dp;
+    height: 100dp;
+    background-image: linear-gradient( #141E30, #243B55);
+  } */
+
+/* .middel{
+       display: flex;
+       flex-direction: row;
+   }
+
+ */
+
+.fas {
+  font-size: 20px;
+  position: relative;
+  left: 350px;
+  top: 10px;
+  color: rgba(245, 245, 245, 0.699);
+  cursor: pointer;
+}
+#updatebtn {
+  visibility: hidden;
+  position: absolute;
+  top: 270px;
+  padding: 10px 45px;
+  background-image: linear-gradient(90deg, #7f00ff, #e100ff);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+  left: 220px;
+  color: white;
+}
+
+.right {
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+.right p {
+  color: #a5abc6;
+  font-size: 60px;
+
+  size: 100px;
+}
+form {
+  position: relative;
+  margin-left: 50px;
+  margin-top: -40px;
+}
+#login-text {
+  position: absolute;
+  font-size: 15px;
+  color: #949cbe;
+  top: 120px;
+  left: 60px;
+}
+#login-username {
+  font-size: 20px;
+  font-weight: 450;
+  color: #1c61be;
+  position: absolute;
+  top: 10px;
+}
+#login-email {
+  font-size: 20px;
+  font-weight: 450;
+  color: #1c61be;
+  position: absolute;
+  top: 85px;
+}
+#login-password {
+  font-size: 20px;
+  font-weight: 450;
+  color: #1c61be;
+  position: absolute;
+  top: 160px;
+}
+#login-cpassword {
+  font-size: 20px;
+  font-weight: 450;
+  color: #1c61be;
+  position: absolute;
+  top: 235px;
+}
+#login-phone {
+  font-size: 20px;
+  font-weight: 450;
+  color: #1c61be;
+  position: absolute;
+  top: 310px;
+}
+#username {
+  max-width: 250px;
+  width: 100%;
+  height: 35px;
+  background-color: #2b2c31;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 50px;
+  color: #a5abc6;
+  font-size: large;
+  padding-left: 20px;
+}
+#fname {
+  max-width: 250px;
+  width: 100%;
+  height: 35px;
+  background-color: #2b2c31;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 125px;
+  color: #a5abc6;
+  font-size: large;
+  padding-left: 20px;
+}
+#fphone {
+  max-width: 250px;
+  width: 100%;
+  height: 35px;
+  background-color: #2b2c31;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 200px;
+  color: #a5abc6;
+  font-size: large;
+  padding-left: 20px;
+}
+#aadhar {
+  max-width: 250px;
+  width: 100%;
+  height: 35px;
+  background-color: #2b2c31;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 275px;
+  color: #a5abc6;
+  font-size: large;
+  padding-left: 20px;
+}
+#pancard {
+  max-width: 250px;
+  width: 100%;
+  height: 35px;
+  background-color: #2b2c31;
+  margin: 10px 0;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 350px;
+  color: #a5abc6;
+  font-size: large;
+  padding-left: 20px;
+}
+#finalsubmit {
+  position: absolute;
+  top: 410px;
+  padding: 10px 45px;
+  background-image: linear-gradient(90deg, #7f00ff, #e100ff);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+  left: 220px;
+  color: white;
+}
+
+#finalsubmit:hover {
+  padding: 8px 40px;
+  background-image: linear-gradient(90deg, #7f00ff, #e100ff);
+}
+@keyframes myframe {
+  0% {
+    transform: translateY(200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
